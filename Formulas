@@ -1,0 +1,9 @@
+# map a number in range :
+    a .. x .. b
+    c .. y .. d
+    -----------
+    y = (x - a) / (b - a) * (d - c) + c
+    
+
+# 
+    
