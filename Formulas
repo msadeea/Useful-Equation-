@@ -6,7 +6,6 @@
     
 
 # loopt throug all pixels in image data
-
     var imageData = context.getImageData(imageX, imageY, imageWidth, imageHeight);
     var data = imageData.data;
     
