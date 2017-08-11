@@ -5,5 +5,18 @@
     y = (x - a) / (b - a) * (d - c) + c
     
 
-# 
+# loopt throug all pixels in image data
+
+    var imageData = context.getImageData(imageX, imageY, imageWidth, imageHeight);
+    var data = imageData.data;
     
+    for(var y = 0; y < imageHeight; y++) {
+      for(var x = 0; x < imageWidth; x++) {
+        var red = data[((imageWidth * y) + x) * 4];
+        var green = data[((imageWidth * y) + x) * 4 + 1];
+        var blue = data[((imageWidth * y) + x) * 4 + 2];
+        var alpha = data[((imageWidth * y) + x) * 4 + 3];
+      }
+    }
+
+# 
