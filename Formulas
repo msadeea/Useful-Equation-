@@ -2,7 +2,7 @@
     a .. x .. b
     c .. y .. d
     -----------
-    y = (x - a) / (b - a) * (d - c) + c
+    y = (((x - a) / (b - a)) * (d - c)) + c
     
 
 # loopt throug all pixels in image data
